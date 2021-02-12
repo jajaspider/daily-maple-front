@@ -4,10 +4,10 @@
     <section id="blog" class="blog">
       <div class="about-decor">
         <div class="about-circle1">
-          <img :src="'../assets/images/team1.png'" alt="" />
+          <img src="@/assets/images/team1.png" alt="" />
         </div>
         <div class="about-circle2">
-          <img :src="'../assets/images/main-banner1.png'" alt="" />
+          <img src="@/assets/images/main-banner1.png" alt="" />
         </div>
       </div>
       <div class="container">
@@ -39,7 +39,7 @@
                     <div class="overflow-hidden">
                       <a :href="'/tovo/blog-details'">
                         <img
-                          :src="'../assets/images/blog/8.jpg'"
+                          src="@/assets/images/blog/8.jpg"
                           class="img-fluid"
                           alt=""
                         />
@@ -64,7 +64,7 @@
                     <div class="overflow-hidden">
                       <a :href="'/tovo/blog-details'">
                         <img
-                          :src="'../assets/images/blog/blog3.jpg'"
+                          src="@/assets/images/blog/blog3.jpg"
                           class="img-fluid"
                           alt=""
                         />
@@ -89,7 +89,7 @@
                     <div class="overflow-hidden">
                       <a :href="'/tovo/blog-details'">
                         <img
-                          :src="'../assets/images/blog/6.jpg'"
+                          src="@/assets/images/blog/6.jpg"
                           class="img-fluid"
                           alt=""
                         />
@@ -113,7 +113,7 @@
                     <div class="overflow-hidden">
                       <a :href="'/tovo/blog-details'">
                         <img
-                          :src="'../assets/images/blog/7.jpg'"
+                          src="@/assets/images/blog/7.jpg"
                           class="img-fluid"
                           alt=""
                         />
@@ -138,7 +138,7 @@
                     <div class="overflow-hidden">
                       <a :href="'/tovo/blog-details'">
                         <img
-                          :src="'../assets/images/blog/9.jpg'"
+                          src="@/assets/images/blog/9.jpg"
                           class="img-fluid"
                           alt=""
                         />

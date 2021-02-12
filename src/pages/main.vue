@@ -10,10 +10,7 @@
             <div class="home-contain">
               <div class="text-white">
                 <div class="contain">
-                  <img
-                    :src="'../assets/images/home2/logo-icon.png'"
-                    alt="logo"
-                  />
+                  <img src="@/assets/images/home2/logo-icon.png" alt="logo" />
                   <h4>Landing page for</h4>
                   <h1 class="text-white">
                     t<span class="f-bold ">o</span>v<span class="f-bold "
@@ -27,14 +24,14 @@
                   </p>
                   <a href="#"
                     ><img
-                      :src="'../assets/images/appstore.png'"
+                      src="@/assets/images/appstore.png"
                       alt="appstore"
                       class="store"
                   /></a>
                   <a href="#"
                     ><img
                       class="ml-10 store"
-                      :src="'../assets/images/play-store.png'"
+                      src="@/assets/images/play-store.png"
                       alt="play-store"
                   /></a>
                 </div>
@@ -43,7 +40,7 @@
                     v-on:click="isHidden = !isHidden"
                     class="popup-vimeo animated-circle"
                     ><img
-                      :src="'../assets/images/home2/play-button.png'"
+                      src="@/assets/images/home2/play-button.png"
                       alt="play-button"
                       class="img-fluid"
                   /></a>
@@ -128,7 +125,7 @@
 </template>
 <script>
 export default {
-  name: 'Home_two',
+  name: 'Main',
   data() {
     return {
       isHidden: true,

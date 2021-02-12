@@ -3,10 +3,10 @@
     <div class="authentication-form not-found">
       <div class="innerpage-decor">
         <div class="innerpage-circle1">
-          <img :src="'../assets/images/Testimonial2.png'" alt="" />
+          <img src="@/assets/images/Testimonial2.png" alt="" />
         </div>
         <div class="innerpage-circle2">
-          <img :src="'../assets/images/Testimonial1.png'" alt="" />
+          <img src="@/assets/images/Testimonial1.png" alt="" />
         </div>
       </div>
       <div class="text-center">
@@ -45,5 +45,5 @@ export default {
 </script>
 
 <style lang="scss">
-@import '../assets/index.scss';
+@import '@/assets/index.scss';
 </style>

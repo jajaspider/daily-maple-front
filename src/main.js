@@ -1,8 +1,8 @@
 // The Vue build version to load with the `import` command
 // (runtime-only or standalone) has been set in webpack.base.conf with an alias.
 import Vue from 'vue';
-import App from './App';
-import router from './router';
+import App from '@/App';
+import router from '@/router';
 import BootstrapVue from 'bootstrap-vue';
 import vueVimeoPlayer from 'vue-vimeo-player';
 import carousel from 'v-owl-carousel';
@@ -11,8 +11,8 @@ import VueProgressBar from 'vue-progressbar';
 // css and scss files include
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap-vue/dist/bootstrap-vue.css';
-import './assets/css/font-awesome.min.css';
-import './assets/index.scss';
+import '@/assets/css/font-awesome.min.css';
+import '@/assets/index.scss';
 
 Vue.use(BootstrapVue);
 Vue.use(vueVimeoPlayer);

@@ -6,7 +6,7 @@
         <div class="row">
           <div class="col-md-8 offset-md-2">
             <div class="footer-text">
-              <img :src="'../assets/images/email.png'" alt="email" />
+              <img src="@/assets/images/email.png" alt="email" />
               <h2 class="title text-center md-margin-top">
                 subscribe to
                 <span>newsletter</span>

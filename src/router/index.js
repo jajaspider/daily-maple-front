@@ -44,12 +44,10 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'main',
       component: Main,
     },
     {
       path: '/404',
-      name: 'pagenotfound',
       component: PageNotFound,
     },
     {

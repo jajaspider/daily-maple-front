@@ -3,10 +3,10 @@
   <section id="contact" class="contact">
     <div class="contact-decor">
       <div class="contact-circle1">
-        <img :src="'../assets/images/main-banner12.png'" alt="" />
+        <img src="@/assets/images/main-banner12.png" alt="" />
       </div>
       <div class="contact-circle2">
-        <img :src="'../assets/images/main-banner1.png'" alt="" />
+        <img src="@/assets/images/main-banner1.png" alt="" />
       </div>
     </div>
     <div class="container">
@@ -91,7 +91,7 @@
         <div class="col-lg-4 d-medium-none-lg">
           <div class="contact-right">
             <img
-              :src="'../assets/images/Contact-info.png'"
+              src="@/assets/images/Contact-info.png"
               class="img-fluid"
               alt=""
             />

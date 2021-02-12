@@ -3,13 +3,13 @@
     <section id="team" class="team">
       <div class="team-decor">
         <div class="team-circle1">
-          <img :src="'../assets/images/team1.png'" alt="" />
+          <img src="@/assets/images/team1.png" alt="" />
         </div>
         <div class="team-circle2">
-          <img :src="'../assets/images/team3.png'" alt="" />
+          <img src="@/assets/images/team3.png" alt="" />
         </div>
         <div class="team-circle3">
-          <img :src="'../assets/images/team.png'" alt="" />
+          <img src="@/assets/images/team.png" alt="" />
         </div>
       </div>
       <div class="container">
@@ -40,7 +40,7 @@
                   <div class="team-block">
                     <div class="team-box">
                       <div class="team-avtar">
-                        <img :src="'../assets/images/avtar/1.jpg'" alt="" />
+                        <img src="@/assets/images/avtar/1.jpg" alt="" />
                       </div>
                       <div class="team-text">
                         <h3>mark jkcno</h3>
@@ -85,7 +85,7 @@
                   <div class="team-block">
                     <div class="team-box">
                       <div class="team-avtar">
-                        <img :src="'../assets/images/avtar/15.jpg'" alt="" />
+                        <img src="@/assets/images/avtar/15.jpg" alt="" />
                       </div>
                       <div class="team-text">
                         <h3>john doe</h3>
@@ -130,7 +130,7 @@
                   <div class="team-block">
                     <div class="team-box">
                       <div class="team-avtar">
-                        <img :src="'../assets/images/avtar/22.jpg'" alt="" />
+                        <img src="@/assets/images/avtar/22.jpg" alt="" />
                       </div>
                       <div class="team-text">
                         <h3>johanson let</h3>
@@ -175,7 +175,7 @@
                   <div class="team-block">
                     <div class="team-box">
                       <div class="team-avtar">
-                        <img :src="'../assets/images/avtar/1.jpg'" alt="" />
+                        <img src="@/assets/images/avtar/1.jpg" alt="" />
                       </div>
                       <div class="team-text">
                         <h3>John Shipmen</h3>

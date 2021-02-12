@@ -3,10 +3,10 @@
   <section id="about" class="about">
     <div class="about-decor">
       <div class="about-circle1">
-        <img :src="'../assets/images/team1.png'" alt="team1" />
+        <img src="@/assets/images/team1.png" alt="team1" />
       </div>
       <div class="about-circle2">
-        <img :src="'../assets/images/main-banner1.png'" alt="banner1" />
+        <img src="@/assets/images/main-banner1.png" alt="banner1" />
       </div>
     </div>
     <div class="container">
@@ -27,7 +27,7 @@
                       <div class="about-icon">
                         <div class="icon-hover">
                           <img
-                            :src="'../assets/images/icon1.png'"
+                            src="@/assets/images/icon1.png"
                             alt="easy-to-customized"
                           />
                         </div>
@@ -40,7 +40,7 @@
                       <div class="about-icon">
                         <div class="icon-hover">
                           <img
-                            :src="'../assets/images/icon3.png'"
+                            src="@/assets/images/icon3.png"
                             alt="easy-to-use"
                           />
                         </div>
@@ -57,7 +57,7 @@
                       <div class="about-icon">
                         <div class="icon-hover">
                           <img
-                            :src="'../assets/images/icon2.png'"
+                            src="@/assets/images/icon2.png"
                             alt="Awasome-Design"
                           />
                         </div>
@@ -70,7 +70,7 @@
                       <div class="about-icon">
                         <div class="icon-hover">
                           <img
-                            :src="'../assets/images/icon4.png'"
+                            src="@/assets/images/icon4.png"
                             alt="SEO-Friendly"
                           />
                         </div>
@@ -97,7 +97,7 @@
           <div class="about-right">
             <div class="about-phone">
               <img
-                :src="'../assets/images/aboutus.png'"
+                src="@/assets/images/aboutus.png"
                 class="img-fluid"
                 alt="aboutus"
               />

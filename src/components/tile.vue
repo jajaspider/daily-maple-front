@@ -59,7 +59,7 @@ export default {
   },
   methods: {
     images(image) {
-      return require('../assets/images/' + image);
+      return require('@/assets/images/' + image);
     },
     getPosition(el) {
       const box = el.getBoundingClientRect();

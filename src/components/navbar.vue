@@ -9,7 +9,7 @@
     <div class="container">
       <b-navbar-toggle target="nav_collapse"></b-navbar-toggle>
       <b-navbar-brand class="navbar-brand" :to="{ name: 'Main_page' }">
-        <img :src="'../assets/images/logo.png'" alt="logo" />
+        <img src="@/assets/images/logo.png" alt="logo" />
       </b-navbar-brand>
       <b-collapse class="default-nav" is-nav id="nav_collapse">
         <b-navbar-nav class="navbar-nav ml-auto" id="mymenu">

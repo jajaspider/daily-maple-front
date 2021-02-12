@@ -4,10 +4,10 @@
     <section id="testimonial" class="testimonial">
       <div class="testimonial-decor">
         <div class="testi-circle1">
-          <img :src="'../assets/images/Testimonial2.png'" alt="" />
+          <img src="@/assets/images/Testimonial2.png" alt="" />
         </div>
         <div class="testi-circle2">
-          <img :src="'../assets/images/Testimonial1.png'" alt="" />
+          <img src="@/assets/images/Testimonial1.png" alt="" />
         </div>
       </div>
       <div class="container">
@@ -32,7 +32,7 @@
               <div class="testimonial-item">
                 <div class="testimonial-block">
                   <div class="testimonial-avtar">
-                    <img :src="'../assets/images/avtar/22.jpg'" alt="" />
+                    <img src="@/assets/images/avtar/22.jpg" alt="" />
                   </div>
                   <div class="testimonial-text">
                     <p>
@@ -50,7 +50,7 @@
               <div class="testimonial-item">
                 <div class="testimonial-block">
                   <div class="testimonial-avtar">
-                    <img :src="'../assets/images/avtar/22.jpg'" alt="" />
+                    <img src="@/assets/images/avtar/22.jpg" alt="" />
                   </div>
                   <div class="testimonial-text">
                     <p>
@@ -68,7 +68,7 @@
               <div class="testimonial-item">
                 <div class="testimonial-block">
                   <div class="testimonial-avtar">
-                    <img :src="'../assets/images/avtar/22.jpg'" alt="" />
+                    <img src="@/assets/images/avtar/22.jpg" alt="" />
                   </div>
                   <div class="testimonial-text">
                     <p>

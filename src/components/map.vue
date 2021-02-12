@@ -11,10 +11,7 @@
                   <ul class="footer-style">
                     <li>
                       <div class="footer-icon">
-                        <img
-                          :src="'../assets/images/locate.png'"
-                          alt="locate"
-                        />
+                        <img src="@/assets/images/locate.png" alt="locate" />
                       </div>
                       <div class="footer-address">
                         <a href="#">B-17 ABC Center, Near Temple, USA 123456</a>
@@ -23,7 +20,7 @@
                     <li>
                       <div class="footer-icon">
                         <img
-                          :src="'../assets/images/telephone.png'"
+                          src="@/assets/images/telephone.png"
                           alt="telephone"
                         />
                       </div>
@@ -34,7 +31,7 @@
                     <li>
                       <div class="footer-icon">
                         <img
-                          :src="'../assets/images/fotter-email.png'"
+                          src="@/assets/images/fotter-email.png"
                           alt="fotter-email"
                         />
                       </div>
@@ -44,7 +41,7 @@
                     </li>
                     <li>
                       <div class="footer-icon">
-                        <img :src="'../assets/images/fax.png'" alt="" />
+                        <img src="@/assets/images/fax.png" alt="" />
                       </div>
                       <div class="footer-address">
                         <a href="#">123-456 / 456-789</a>
@@ -56,8 +53,8 @@
             </div>
             <div class="col-md-6 p-0">
               <iframe
-                :src="
-                  'https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d35391.48685150366!2d72.77537852898678!3d21.18930639680146!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1530610361925'
+                src="
+                  https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d35391.48685150366!2d72.77537852898678!3d21.18930639680146!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1530610361925
                 "
                 class="md-height"
               >
