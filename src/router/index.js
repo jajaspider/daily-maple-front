@@ -44,7 +44,10 @@ export default new Router({
   routes: [
     {
       path: '/',
-      component: Main,
+      components: {
+        default: Main,
+        navbar: Navbar,
+      },
     },
     {
       path: '/404',
