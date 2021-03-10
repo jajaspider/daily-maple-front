@@ -68,6 +68,11 @@
             <button type="submit" class="btn btn-custom ggl">Google</button>
           </div>
         </form>
+        <div style="margin: 10px; text-align:center;">
+          <a href="http://localhost:8080/oauth">
+            <img src="../static/kakao_login_medium_narrow.png" />
+          </a>
+        </div>
       </div>
     </div>
     <!--strat color change -->

@@ -50,40 +50,7 @@
             contact us
           </b-nav-item>
 
-          <b-nav-item-dropdown
-            right-alignment
-            href="#Other_page"
-            text="Other page"
-            class="nav-link "
-          >
-            <b-dropdown-item class="nav-link" to="#" :href="'/sign-in'">
-              sign in
-            </b-dropdown-item>
-            <b-dropdown-item class="nav-link" to="#" :href="'/sign-up'">
-              sign up
-            </b-dropdown-item>
-            <b-dropdown-item class="nav-link" to="#" :href="'/forget-Password'">
-              Forget Password
-            </b-dropdown-item>
-            <b-dropdown-item class="nav-link" to="#" :href="'/thank-you'">
-              Thank you
-            </b-dropdown-item>
-            <b-dropdown-item class="nav-link" to="#" :href="'/review'">
-              Review
-            </b-dropdown-item>
-            <b-dropdown-item class="nav-link" to="#" :href="'/404'">
-              404
-            </b-dropdown-item>
-            <b-dropdown-item class="nav-link" to="#" :href="'/faq'">
-              FAQ
-            </b-dropdown-item>
-            <b-dropdown-item class="nav-link" to="#" :href="'/download'">
-              Download
-            </b-dropdown-item>
-            <b-dropdown-item class="nav-link" to="#" :href="'/coming-soon'">
-              coming soon
-            </b-dropdown-item>
-          </b-nav-item-dropdown>
+          <b-nav-item to="/login">Login</b-nav-item>
         </b-navbar-nav>
       </b-collapse>
     </div>

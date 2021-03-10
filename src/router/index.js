@@ -15,6 +15,8 @@ import Map from '@/components/map';
 import Tile from '@/components/tile';
 import Footer from '@/components/footer';
 import PageNotFound from '@/components/pagenotfound';
+import Signin from '@/pages/sign_in';
+
 import js from '@/components/js';
 
 import color from '@/components/color';
@@ -46,6 +48,13 @@ export default new Router({
       path: '/',
       components: {
         default: Main,
+        navbar: Navbar,
+      },
+    },
+    {
+      path: '/login',
+      components: {
+        default: Signin,
         navbar: Navbar,
       },
     },
